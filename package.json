@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-eddystone",
+  "version": "1.0.0",
+  "description": "This homebridge plugin allows you to get the TLM data from beacons running Eddystone to your Homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@abandonware/eddystone-beacon-scanner": "^3.0.1-2",
+    "@abandonware/noble": "^1.9.2-10",
+    "eddystone-url-encoding": "^1.0.0"
+  },
+  "engines": {
+    "homebridge": ">=0.4.38"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "temperature",
+    "humidity",
+    "homekit",
+    "google",
+    "bluetooth",
+    "node.js",
+    "estimote",
+    "estimote beacon HW.rev.B"
+  ],
+  "author": "Basim Ali Yoshiguchi",
+  "license": "MIT"
+}
